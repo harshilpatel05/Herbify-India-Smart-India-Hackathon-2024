@@ -1,0 +1,161 @@
+/* style.css */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.menuBarButtons {
+  height: 50px;
+  color: #254336;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 4px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: none;
+  font-family: "Fira Code";
+  border-radius: 25px;
+  border-color: #508D4E;
+  border-style: double;
+}
+
+.menuBarButtons:hover {
+  background-color: #508D4E;
+  height: 60px;
+  color: white;
+}
+
+body {
+  background-color: #f6f6e9;
+}
+
+.menuLogo {
+  height: 120px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.menuText {
+  font-size: 32px;
+  color: #254336;
+  margin-left: 15px;
+  font-family: "Fira Code";
+  white-space: nowrap;
+}
+
+.menuText span {
+  display: block;
+}
+
+.missionContainer {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('https://i.pinimg.com/736x/59/b4/aa/59b4aac6cfd4994863da1cc4b4919c2f.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 5px;
+  border-radius: 15px;
+  width: 80%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mission {
+  color: #F6F6E9;
+  font-family: "Fira Code";
+  font-size: 50px;
+  margin: 150px 0 10px;
+}
+
+.quoteMission {
+  color: #F6F6E9;
+  font-family: "Fira Code";
+  font-size: 20px;
+  font-style: italic;
+  opacity: 50%;
+  transition-duration: 0.1s;
+}
+
+.quoteMission:hover {
+  opacity: 90%;
+}
+
+.learnMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.learnMoreButton {
+  border-radius: 25px;
+  height: 50px;
+  color: #111;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #F6F6E9 ;
+  font-family: "Fira Code";
+  border: none;
+  transition-duration: 0.3s;
+  margin-bottom: 100px;
+}
+
+.learnMoreButton:hover {
+  background-color: #3b6b41;
+  color: #e6e6e6;
+}
+
+.learnMoreButton:focus {
+  outline: none;
+}
+
+.galleryTitle {
+  color: #254336;
+  font-family: "Fira Code";
+  text-align: center;
+  font-size: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  transition-duration: 0.3s;
+  border: 3px solid black;
+}
+
+.gallery img:hover {
+  width: 310px;
+  height: 260px;
+}
