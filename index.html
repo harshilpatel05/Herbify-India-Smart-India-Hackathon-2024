@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
 </head>
 <body>
   <div class="menuBar">
@@ -20,10 +21,12 @@
         </span>
       </div>
       <div class="menuButtons">
-        <button class="menuBarButtons" type="button">Home</button>
-        <button class="menuBarButtons" type="button">Virtual Garden</button>
-        <button class="menuBarButtons" type="button">Gallery</button>
-        <button class="menuBarButtons" type="button">Contact</button>
+        <button class="menuBarButtons" type="button" onclick="redirectToHome()">Home</button>
+        <button class="menuBarButtons" type="button" onclick="redirectToAbout()">About Us</button>
+        <button class="menuBarButtons" type="button" onclick="redirectToVirtual()">Virtual Garden</button>
+        <button class="menuBarButtons" type="button" onclick="redirectToGallery()">Gallery</button>
+        <button class="menuBarButtons" type="button" onclick="redirectToAyush()">AYUSH</button>
+        <button class="menuBarButtons" type="button" onclick="redirectToContact()">Contact</button>
       </div>
     </ul>
   </div>
@@ -34,7 +37,7 @@
       offering remedies in every leaf and root."
     </h6>
     <div class="learnMore">
-      <button class="learnMoreButton">Learn More</button>
+      <button class="learnMoreButton" onclick="redirectToAbout()">Learn More</button>
     </div>
   </div>
   <div class="gallery">
@@ -65,5 +68,9 @@
       Department of Ayurveda, Yoga, and Naturopathy, Unani, Siddha and Homoeopathy (Ayush) in November 2003 with focused attention
       towards education and research in Ayurveda, Yoga and Naturopathy, Unani, Siddha, and Homoeopathy.</p></div>
   </div>
+  <div class="learnMoreAyush">
+  <button class="learnMoreButtonAyush" onclick="redirectToAyush()">Learn More</button>
+  </div>
+
 </body>
 </html>
