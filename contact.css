@@ -1,0 +1,94 @@
+body{
+  background-color:#f6f6e9;
+}
+.aboutAyushTitle{
+  color: #111;
+  font-family: "Fira Code";
+  font-size: 50px;
+  margin: 50px 0 10px;
+  text-align: center;
+}
+.ayushContainer {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+}
+.contactPara{
+  max-width: 500px;
+  margin-left: 100px;
+  font-family: "Fira Code";
+  font-size: 20px;
+
+}
+.ayushMap {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.ayushMap img {
+  width: 400px;
+  height: 400px;
+  border: 3px solid black;
+  margin-left: 30px;
+}
+.ayushLink{
+  color: #111;
+}
+.menuLogo {
+  height: 120px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.menuText {
+  font-size: 32px;
+  color: #254336;
+  margin-left: 15px;
+  font-family: "Fira Code";
+  white-space: nowrap;
+}
+
+.menuText span {
+  display: block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.menuBarButtons {
+  height: 50px;
+  color: #254336;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 4px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: none;
+  font-family: "Fira Code";
+  border-radius: 25px;
+  border-color: #508D4E;
+  border-style: double;
+}
+
+.menuBarButtons:hover {
+  background-color: #508D4E;
+  height: 60px;
+  width: auto;
+  color: white;
+}
